@@ -40,9 +40,10 @@ public class Principal {
         
         Principal guia7 = new Principal();
         
-        //guia7.muestraAutos();
+        guia7.muestraAutos();
         
-        //guia7.muestraMuebles();
+       
+        guia7.muestraMuebles();
 
         guia7.muestraMascotas();
         
@@ -70,7 +71,11 @@ public class Principal {
         
         Auto auto5 = new Auto();
         
-        System.out.println(auto1 + "\n" + auto2 + "\n" + auto3 + "\n" + auto4 + "\n" + auto5);        
+        System.out.println("\n"
+                + "\n******************" 
+                + "\n Actividad A: AUTOS "
+                + "\n" 
+                + auto1 + "\n" + auto2 + "\n" + auto3 + "\n" + auto4 + "\n" + auto5);        
     }
     
     
@@ -88,7 +93,10 @@ public class Principal {
         mue2.setMaterial("madera");
         mue3.setMaterial("madera");
         
-        System.out.println("\n"+ mue1 + "\n"+ mue2 + "\n"+ mue3 );
+        System.out.println("\n"
+                + "\n************************" 
+                + "\n Actividad B: MUEBLES"
+                + "\n"+ mue1 + "\n"+ mue2 + "\n"+ mue3 );
     }
     
     
@@ -113,7 +121,10 @@ public class Principal {
         }
 
         // muestra lista de mascotas
-        System.out.println("\nMuestra lista de Mascotas");
+        System.out.println("\n"
+                + "\n************************" 
+                + "\n Actividad C: MASCOTAS"
+                + "\nMuestra lista de Mascotas");
         for (int i = 0; i < animals.length; i++) {
             //int animal = animals[i];
             System.out.println(mascotas[i]);
