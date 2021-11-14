@@ -1,7 +1,15 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
+/***
+ * Fecha
+ * Guía de Ejercicios Nº 11: Trabajo Práctico OBLIGATORIO INTEGRADOR 
+ * Fecha: 2021-11-17
+ * Una peluquería canina necesita de un formulario para almacenar los datos 
+ * de cada una de sus mascotas clientes. Para ello, solicita el desarrollo 
+ * de una aplicación que sea capaz de registrar los siguientes datos de 
+ * cada una de ellas y sus dueños: num_cliente, nombre_perro, raza, color, 
+ * alergico, atención_especial, nombre_duenio, celular_duenio, observaciones.
+ * 
+ * Profe: Ing. Luisina de Paula
+ * 
  */
 package Igu;
 
@@ -10,10 +18,15 @@ import Logica.Mascota;
 
 /**
  *
- * @author profl
+ * @author Leo Martinez
  */
 public class Peluqueria extends javax.swing.JFrame {
-
+    
+    
+    /***
+     * ctrl = Controladora de que adminsitra los datos 
+     *        de la peluqueria
+     */
     Controladora ctrl = new Controladora();
 
     /**
@@ -226,9 +239,11 @@ public class Peluqueria extends javax.swing.JFrame {
     }//GEN-LAST:event_btnLimpiarActionPerformed
 
     /**
-     * guardarDatos() --> permite guardar los datos en la controladora para los
-     * textos es directo. para los boolean se verifica en el momento para el nro
-     * de Cliente hay una verificación y luego el guardado de la información
+     * guardarDatos() --> permite guardar los datos a través de la controladora 
+     *   + Para los textos es directo. Pone Mayusculas
+     *   + Para los boolean se verifica en el momento 
+     *   + Para el nro de Cliente hay una verificación y luego 
+     *     guardada de la información
      */
     private void guardarDatos() {
         Mascota can = new Mascota();
